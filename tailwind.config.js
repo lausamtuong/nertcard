@@ -6,7 +6,11 @@ module.exports = {
     fontFamily:{
       sora:["Sora"]
     },
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 1s linear infinite',
+      }
+    },
   },
   plugins: [],
 }
